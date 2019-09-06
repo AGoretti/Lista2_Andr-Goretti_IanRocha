@@ -55,7 +55,24 @@ for k in range(51):
     date.append(random_date())
     cpf.append(random_cpf())
     year.append(date[k][-4:])
-    print(year[k])
     age.append(2019 - int(year[k]))
     tel.append(random_tel())
     city.append(random_city())
+
+# def selection_sort():
+#     for i in range(51):
+#         min = i
+#         for index in (i+1, 51):
+#             if person[min] > person[index]:
+#                 min = j
+
+def bubble_sort():
+    unsorted = True
+    while unsorted:
+        unsorted = False
+        for i in range(50):
+            if person[i] > person[i+1]:
+                aux = person[i+1]
+                person[i+1] = person[i]
+                person[i] = aux
+                unsorted = True 
