@@ -60,17 +60,11 @@ def clickedN():
             Contato.insert(INSERT, "\n ") 
 
             Contato.insert(INSERT, "Numero Telefone: ")
-            Contato.insert(INSERT, tel1[i])
-            Contato.insert(INSERT, "-")
-            Contato.insert(INSERT, tel2[i])
+            Contato.insert(INSERT, tel[i])
             Contato.insert(INSERT, "\n ") 
 
             Contato.insert(INSERT, "Nascimento: ")
-            Contato.insert(INSERT, day[i])
-            Contato.insert(INSERT, "/")
-            Contato.insert(INSERT, month[i])
-            Contato.insert(INSERT, "/")
-            Contato.insert(INSERT, year[i])
+            Contato.insert(INSERT, date[i])
             Contato.insert(INSERT, "\n")
          i += 1                   
 
@@ -107,17 +101,11 @@ def clickedA():
             Contato.insert(INSERT, "\n ") 
 
             Contato.insert(INSERT, "Numero Telefone: ")
-            Contato.insert(INSERT, tel1[j])
-            Contato.insert(INSERT, "-")
-            Contato.insert(INSERT, tel2[j])
+            Contato.insert(INSERT, tel[j])
             Contato.insert(INSERT, "\n ") 
 
             Contato.insert(INSERT, "Nascimento: ")
-            Contato.insert(INSERT, day[j])
-            Contato.insert(INSERT, "/")
-            Contato.insert(INSERT, month[j])
-            Contato.insert(INSERT, "/")
-            Contato.insert(INSERT, year[j])
+            Contato.insert(INSERT, date[j])
             Contato.insert(INSERT, "\n")
          j += 1
 
@@ -152,17 +140,11 @@ def clickedC():
             Contato.insert(INSERT, "\n ") 
 
             Contato.insert(INSERT, "Numero Telefone: ")
-            Contato.insert(INSERT, tel1[j])
-            Contato.insert(INSERT, "-")
-            Contato.insert(INSERT, tel2[j])
+            Contato.insert(INSERT, tel[j])
             Contato.insert(INSERT, "\n ") 
 
             Contato.insert(INSERT, "Nascimento: ")
-            Contato.insert(INSERT, day[j])
-            Contato.insert(INSERT, "/")
-            Contato.insert(INSERT, month[j])
-            Contato.insert(INSERT, "/")
-            Contato.insert(INSERT, year[j])
+            Contato.insert(INSERT, date[j])
             Contato.insert(INSERT, "\n")
          j += 1        
 
@@ -195,17 +177,11 @@ def clickedG():
         Contato.insert(INSERT, "\n ") 
 
         Contato.insert(INSERT, "Numero Telefone: ")
-        Contato.insert(INSERT, tel1[j])
-        Contato.insert(INSERT, "-")
-        Contato.insert(INSERT, tel2[j])
+        Contato.insert(INSERT, tel[j])
         Contato.insert(INSERT, "\n ") 
 
         Contato.insert(INSERT, "Nascimento: ")
-        Contato.insert(INSERT, day[j])
-        Contato.insert(INSERT, "/")
-        Contato.insert(INSERT, month[j])
-        Contato.insert(INSERT, "/")
-        Contato.insert(INSERT, year[j])
+        Contato.insert(INSERT, date[j])
         Contato.insert(INSERT, "\n")
         j += 1
  
